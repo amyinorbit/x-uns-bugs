@@ -1,6 +1,8 @@
 # X-UNS Bug Tracker
 
-![UNS-1 FMS](uns-1.png)
+<p align="center">
+  <img src="uns-1.png">
+</p>
 
 This is the bug tracker for x-uns (UNS-1 FMS simulation for X-Plane 11). If you have encountered
 a bug, crash or oddity using the FMS, please report it here by clicking on [issues](issues), and
