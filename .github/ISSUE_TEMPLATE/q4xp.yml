@@ -1,6 +1,6 @@
 name: Bug Report
 description: Report a UNS-1 Bug
-title: "[Q4XP]: "
+title: "[bug]: "
 labels: ["q4xp integration", "bug"]
 assignees:
   - amyinorbit
@@ -19,21 +19,25 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: false
-  - type: textarea
-    id: what-happened
-    attributes:
-      label: What happened?
-      description: |
-        Please give us as much information as possible about what happened, and what you
-        expected to happen
-      placeholder: Tell us what you see!
-      value: "The UNS-1 took me to the Bermuda Triangle instead of Heathrow."
-    validations:
-      required: true
   - type: input
     id: version
     attributes:
       label: Version
       description: What version of the UNS-1 plugin are you using?
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: |
+        "Tell us what happened: what the FMS did, what you expected it to do instead, and any information you think might be relevant or help us reproduce the bug. *PLEASE ATTACH YOUR LOG FILE*" 
+      placeholder:
+      value: |
+        "# What happened"
+        ""
+        "# Expected behaviour"
+        ""
+        "# Attach your log file here"
     validations:
       required: true
