@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: [non-FMS bugs] X-Plane.org Q4XP forums
+  - name: '[non-FMS bugs] X-Plane.org Q4XP forums'
     url: https://forums.x-plane.org/index.php?/forums/forum/667-flyjsim-q4xp/
     about: Report Q4XP bugs not related to the FMS or autopilot on the X-Plane.org forums.
-  - name: [non-FMS bugs] FlyJSim Discord server
+  - name: '[non-FMS bugs] FlyJSim Discord server'
     url: https://discord.gg/DuE5vXqKfs
     about: Report Q4XP bugs not related to the FMS or autopilot on the FlyJSim Discord server.
