@@ -1,4 +1,4 @@
-name: Crash Report
+name: FMS Crash Report
 description: Report a UNS-1 Crash-to-Desktop
 title: "[CTD]: "
 labels: ["q4xp integration", "crash"]

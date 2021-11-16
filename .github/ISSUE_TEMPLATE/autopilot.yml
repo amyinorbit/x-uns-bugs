@@ -1,7 +1,7 @@
-name: FMS Bug Report
-description: Report a UNS-1 Bug
+name: Autopilot Bug Report
+description: Report a Q4XP autopilot bug
 title: "[Bug]: "
-labels: ["q4xp integration", "bug"]
+labels: ["q4xp integration", "autopilot", "bug"]
 assignees:
   - amyinorbit
 body:
@@ -19,7 +19,7 @@ body:
     id: version
     attributes:
       label: Version
-      description: What version of the UNS-1 plugin are you using?
+      description: What version of the Q4XP UNS-1 plugin are you using?
     validations:
       required: true
   - type: textarea
@@ -27,7 +27,7 @@ body:
     attributes:
       label: What happened?
       description: >
-        Tell us what happened: what the FMS did, what you expected it to do instead,
+        Tell us what happened: what the autopilot did, what you expected it to do instead,
         and any information you think might be relevant or help us reproduce the bug.
         *PLEASE ATTACH YOUR LOG FILE* 
       placeholder:
