@@ -1,14 +1,10 @@
 name: Bug Report
 description: Report a UNS-1 Bug
-title: "[bug]: "
+title: ""
 labels: ["q4xp integration", "bug"]
 assignees:
   - amyinorbit
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
   - type: input
     id: contact
     attributes:
@@ -31,7 +27,9 @@ body:
     attributes:
       label: What happened?
       description: >
-        Tell us what happened: what the FMS did, what you expected it to do instead, and any information you think might be relevant or help us reproduce the bug. *PLEASE ATTACH YOUR LOG FILE* 
+        Tell us what happened: what the FMS did, what you expected it to do instead,
+        and any information you think might be relevant or help us reproduce the bug.
+        *PLEASE ATTACH YOUR LOG FILE* 
       placeholder:
       value: "# What happened
         

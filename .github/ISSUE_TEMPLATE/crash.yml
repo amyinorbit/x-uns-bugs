@@ -1,0 +1,43 @@
+name: Crash Report
+description: Report a UNS-1 Crash-to-Desktop
+title: ""
+labels: ["q4xp integration", "crash"]
+assignees:
+  - amyinorbit
+body:
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: |
+        How can we get in touch with you if we need more info?
+        (leave empty if you prefer using GitHub issues to communicate)
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: What version of the UNS-1 plugin are you using?
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: >
+        Tell us what happened: when the crash occured, what you were doing, what the FMS was
+        showing prior to crashing, and any information you think might be relevant or help us
+        reproduce the crash. *PLEASE ATTACH YOUR LOG FILE* 
+      placeholder:
+      value: "# When did the crash occur?
+        
+        
+        # What was the FMS doing before the crash?
+        
+        
+        # Attach your log file here"
+        
+    validations:
+      required: true
