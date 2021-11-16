@@ -1,6 +1,6 @@
 name: Bug Report
 description: Report a UNS-1 Bug
-title: ""
+title: "[Bug]: "
 labels: ["q4xp integration", "bug"]
 assignees:
   - amyinorbit

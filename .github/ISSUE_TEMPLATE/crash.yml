@@ -1,6 +1,6 @@
 name: Crash Report
 description: Report a UNS-1 Crash-to-Desktop
-title: ""
+title: "[CTD]: "
 labels: ["q4xp integration", "crash"]
 assignees:
   - amyinorbit
