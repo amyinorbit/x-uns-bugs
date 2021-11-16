@@ -30,14 +30,14 @@ body:
     id: what-happened
     attributes:
       label: What happened?
-      description: |
-        "Tell us what happened: what the FMS did, what you expected it to do instead, and any information you think might be relevant or help us reproduce the bug. *PLEASE ATTACH YOUR LOG FILE*" 
+      description: >
+        Tell us what happened: what the FMS did, what you expected it to do instead, and any information you think might be relevant or help us reproduce the bug. *PLEASE ATTACH YOUR LOG FILE* 
       placeholder:
-      value: |
-        "# What happened"
-        ""
-        "# Expected behaviour"
-        ""
-        "# Attach your log file here"
+      value: "# What happened
+        
+        # Expected behaviour
+        
+        # Attach your log file here"
+        
     validations:
       required: true
