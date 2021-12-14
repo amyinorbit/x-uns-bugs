@@ -1,20 +1,10 @@
 name: Autopilot Bug Report
 description: Report a Q4XP autopilot bug
 title: "[Bug]: "
-labels: ["q4xp integration", "autopilot", "bug"]
+labels: ["q4xp-integration", "autopilot", "bug"]
 assignees:
   - amyinorbit
 body:
-  - type: input
-    id: contact
-    attributes:
-      label: Contact Details
-      description: |
-        How can we get in touch with you if we need more info?
-        (leave empty if you prefer using GitHub issues to communicate)
-      placeholder: ex. email@example.com
-    validations:
-      required: false
   - type: input
     id: version
     attributes:
